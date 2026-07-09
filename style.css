@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar styles start here */
+.nav-section{
+    background-color:#ffffff ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 60px;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 6px 4px 4px 0px;
+    height: 80%;
+    color: black;
+}
+.logo h3{
+    color: #0D1B2A;
+}
+
+.nav-pages a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #575757;
+    padding: 0px 10px;
+}
+.btn button{
+    border: none;
+    padding: 12px 25px;
+    color: #ffffff;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* nav section style end */
