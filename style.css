@@ -82,3 +82,48 @@
 }
 
 /* banner section styles finish */
+
+/* guest intro section styles start */
+.intro-section h1{
+      text-align: center;
+      font-size: 56px;
+      color: #000102;
+      padding-top:80px ;
+}
+.intro-all-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 56px 80px;
+    gap: 25px;
+} 
+
+.intro-content{
+    overflow: hidden;
+   border: 1px solid #E5E7EB;
+   border-radius: 12px;
+}
+.intro-content img{
+    width: auto;
+    object-fit: cover;
+}
+.intro-content h6{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: 200;
+    margin-top: 10px;
+    padding: 3px 10px;
+}
+.intro-content h2{
+    color: #0D1B2A;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 3px 10px;
+}
+.intro-section p {
+    color: #575757;
+    font-size: 14px;
+    padding: 3px 10px;
+    margin-bottom: 15px;
+}
+
+/* guest intro section styles finish */
