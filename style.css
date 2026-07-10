@@ -127,3 +127,78 @@
 }
 
 /* guest intro section styles finish */
+
+/* ticket prices section styles start */
+
+.ticket-price-section{
+    padding: 80px 60px;
+}
+.ticket-price-section h2{
+    text-align: center;
+    color: #0D1B2A;
+    font-size: 48px;
+    padding-bottom: 12px;
+}
+.ticket-price-section #ticketParagraph{
+    text-align: center;
+    color: #575757;
+    font-size: 16px;
+    margin-bottom: 48px;
+}
+.ticket-price-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.ticket-price-card{
+    border: 1px solid #E5E7EB;
+    min-height: 444px;
+    padding: 32px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+.ticket-price-card h6{
+    color: #888888;
+    font-size: 13px;
+    padding: 8px 0px;
+   
+    
+}
+.ticket-price-card p{
+    color: #888888;
+    font-size: 13px;
+    padding: 4px 0px 18px 0px;
+    border-bottom: 1px solid #E5E7EB;
+    
+}
+
+.ticket-price-card h1{
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 44px;
+}
+.ticket-price-card ul{
+    margin-top: 32px;
+    padding:8px 8px 12px 8px;
+    
+}
+
+.ticket-price-card li::marker{
+    color: #2563EB;
+}
+
+.ticket-price-card ul li{
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.4;
+    padding-bottom: 12px;
+}
+.ticket-price-card button{
+    color: #2563EB;
+    width: 100%;
+    border-radius: 8px;
+    padding: 14px;
+    background: transparent;
+    border: 1px solid #2563EB;
+}
+
